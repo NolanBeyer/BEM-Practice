@@ -1,0 +1,125 @@
+.card {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 300px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card__image {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card__description {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.card__button {
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.my-4 {
+  margin: 4rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+
+.navbar {
+  height: 10vh;
+  background: rgb(70, 92, 105);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.navbar__links {
+  display: flex;
+}
+
+li {
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  background: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+text-center {
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+@import 'card';
+@import 'config';
+@import 'navbar';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+    background: #333;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+text-center {
+    text-align: center;
+}
